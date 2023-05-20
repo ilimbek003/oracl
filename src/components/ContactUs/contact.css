@@ -1,0 +1,185 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.contact h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 63px;
+    color: #231F1E;
+}
+
+.contact p{
+    width: 510px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    color: #231F1E;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+}
+
+.email h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 39px;
+    color: #231F1E;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.email-one{
+    margin-bottom: 37px;
+}
+
+
+.mailto,
+.mailto::after {
+    display: block;
+    font-size: 20px;
+    color: #231F1E;
+    white-space: pre;
+    font-weight: bold;
+    position: relative;
+}
+
+.mailto::after {
+    content: attr(data-text);
+    color: #eaaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 5s linear width;
+    -webkit-transition: 5s linear width;
+    -moz-transition: 5s linear width;
+    -o-transition: 5s linear width;
+    -ms-transition: 5s linear width;
+}
+
+.mailto:hover::after {
+    width: 100%;
+    cursor: pointer;
+}
+
+.food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
+}
+
+.clock-one{
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.clock-one h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 39px;
+    color: #231F1E;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.clock h5{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #231F1E;
+}
+
+
+
+.phone{
+    display: flex;
+    align-items: center;
+}
+
+.phone h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 39px;
+    color: #231F1E;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+
+.phone-one{
+    margin-bottom: 37px;
+}
+
+.phones{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-transform:uppercase;
+    position:relative;
+    color:#ccc;
+}
+
+
+
+.iframe{
+    width: 400px;
+    height: 225px;
+    border: none;
+    margin: 20px 0 0 0;
+}
+
+.phones,
+.phones::after {
+    display: block;
+    font-size: 20px;
+    color: #231F1E;
+    white-space: pre;
+    font-weight: bold;
+    position: relative;
+}
+
+.phones::after {
+    content: attr(data-text);
+    color: #eaaeae;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 5s linear width;
+    -webkit-transition: 5s linear width;
+    -moz-transition: 5s linear width;
+    -o-transition: 5s linear width;
+    -ms-transition: 5s linear width;
+}
+
+.phones:hover::after {
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,146 @@
+.imgs{
+    position: absolute;
+    width: 12rem;
+    margin-left: -80px;
+    transform: rotate(20deg);
+    margin-top: 80px;
+}
+
+.our-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+}
+.our-one h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    color: #F47721;
+}
+.our-one h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 63px;
+    color: #231F1E;
+}
+
+.items{
+    width: 510px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 105%;
+    text-align: center;
+    color: #231F1E;
+    margin-bottom: 50px;
+}
+.bash{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.bash img{
+    width: 450px;
+}
+
+.ject{
+    width: 472px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #231F1E;
+    margin: 40px 0 30px 0 ;
+}
+
+.alt{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 32%;
+    width: 85px;
+    height: 80px;
+    background: #F47721;
+    border-radius: 3px;
+}
+
+
+.btn{
+    width: 220px;
+    height: 50px;
+    background: #231F1E;
+    /*border: 1px solid #231F1E;*/
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    transition: all 1s ease;
+}
+.der{
+    padding: 0 0 0 61px;
+}
+
+.btn:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 77px;
+    height: 100%;
+    background: #fa6803;
+    border-radius: 0 5px 5px 0;
+    transition: all 0.5s ease;
+    /*opacity: 0.6;*/
+}
+
+.btn::before{
+    content: url("../../img/Vector 93.svg");
+    position: absolute;
+    margin: -6px 0 0 70px;
+    z-index: 1;
+}
+.btn:hover:after {
+    width: 100%;
+    /*opacity: 0.6;*/
+    border-radius: 5px;
+    background: #fa6803;
+}
+
+.btn:hover{
+    background: transparent;
+    border: none;
+}
+
+.span_our{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: -85px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -10px;
+}
+
+.vector-one{
+    position: relative;
+}
+
+.vector-one::after{
+    position: absolute;
+    content: url("../../img/Vector 102 (1).svg");
+    margin-left: 85%;
+    margin-top: -200px;
+    transform: rotate(-20deg);
+
+}

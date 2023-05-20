@@ -1,0 +1,77 @@
+.simplebar{
+    /*overflow-x:scroll;*/
+    /*overflow-y:hidden;*/
+    /*background-color: grey;*/
+    /*height:200px;*/
+}
+
+/*.slick-dots {*/
+/*    display: block;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    list-style: none;*/
+/*    line-height: 0;*/
+/*}*/
+
+/*.slick-dots li {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    width: 0.9375rem;*/
+/*    height: 0.9375rem;*/
+/*    margin: 0 0.875rem;*/
+/*    padding: 0;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.slick-dots li:first-child {*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*.slick-dots li:last-child {*/
+/*    margin-right: 0;*/
+/*}*/
+
+/*.slick-dots li button {*/
+/*    font-size: 0;*/
+/*    line-height: 0;*/
+/*    display: block;*/
+/*    width: 0.9375rem;*/
+/*    height: 0.9375rem;*/
+/*    padding: 0.3125rem;*/
+/*    cursor: pointer;*/
+/*    color: transparent;*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    background: rgba(47, 31, 22, 0.5);*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.slick-dots li button:hover,*/
+/*.slick-dots li button:focus,*/
+/*.slick-dots li.slick-active button {*/
+/*    outline: none;*/
+/*    background-color: #2d1d15;*/
+/*    transition: all 300ms ease 0s;*/
+/*    color: #2d1d15;*/
+/*}*/
+
+.slick-next:before, .slick-prev:before {
+    color: #000 !important;
+}
+
+.props{
+    width: 100%;
+    margin-top: 130px;
+
+}
+.clas{
+    margin-left: 40px;
+}
+
+.bar::-webkit-scrollbar{
+    width: 15px;
+}
+.bar::-webkit-scrollbar-track{
+    background: #da7474;
+    width: 100px;
+}
