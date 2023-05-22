@@ -217,6 +217,102 @@ const Portfolio = (props) => {
                             </div>
                         </div>
                     </div>
+                    <div className="portfolio_block">
+                        <div className="wrapper">
+                            <img className="wrapper_img" src={props.img} alt=""/>
+                            <div className="honda">
+                                <h3>{props.honda}</h3>
+                                <h4>Lot: <span className="nom">№124</span></h4>
+                            </div>
+                            <div className="null">
+                                <p>Auction date: <span className="mil">20.02.2023</span></p>
+                                <h4>Run</h4>
+                            </div>
+                            <div className="prise">
+                                <div className="prise">
+                                    <h3>{props.prise}</h3>
+                                    <h4>{props.priseOne}</h4>
+                                </div>
+                                <img className="alt_onr" src={image} alt=""/>
+                            </div>
+                            <div className="overlay">
+                                <button className="btn-hover"><span className="span_more_hover">Read more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="portfolio_block">
+                        <div className="wrapper">
+                            <img className="wrapper_img" src={props.img} alt=""/>
+                            <div className="honda">
+                                <h3>{props.honda}</h3>
+                                <h4>Lot: <span className="nom">№124</span></h4>
+                            </div>
+                            <div className="null">
+                                <p>Auction date: <span className="mil">20.02.2023</span></p>
+                                <h4>Run</h4>
+                            </div>
+                            <div className="prise">
+                                <div className="prise">
+                                    <h3>{props.prise}</h3>
+                                    <h4>{props.priseOne}</h4>
+                                </div>
+                                <img className="alt_onr" src={image} alt=""/>
+                            </div>
+                            <div className="overlay">
+                                <button className="btn-hover"><span className="span_more_hover">Read more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="portfolio_block">
+                        <div className="wrapper">
+                            <img className="wrapper_img" src={props.img} alt=""/>
+                            <div className="honda">
+                                <h3>{props.honda}</h3>
+                                <h4>Lot: <span className="nom">№124</span></h4>
+                            </div>
+                            <div className="null">
+                                <p>Auction date: <span className="mil">20.02.2023</span></p>
+                                <h4>Run</h4>
+                            </div>
+                            <div className="prise">
+                                <div className="prise">
+                                    <h3>{props.prise}</h3>
+                                    <h4>{props.priseOne}</h4>
+                                </div>
+                                <img className="alt_onr" src={image} alt=""/>
+                            </div>
+                            <div className="overlay">
+                                <button className="btn-hover"><span className="span_more_hover">Read more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="portfolio_block">
+                        <div className="wrapper">
+                            <img className="wrapper_img" src={props.img} alt=""/>
+                            <div className="honda">
+                                <h3>{props.honda}</h3>
+                                <h4>Lot: <span className="nom">№124</span></h4>
+                            </div>
+                            <div className="null">
+                                <p>Auction date: <span className="mil">20.02.2023</span></p>
+                                <h4>Run</h4>
+                            </div>
+                            <div className="prise">
+                                <div className="prise">
+                                    <h3>{props.prise}</h3>
+                                    <h4>{props.priseOne}</h4>
+                                </div>
+                                <img className="alt_onr" src={image} alt=""/>
+                            </div>
+                            <div className="overlay">
+                                <button className="btn-hover"><span className="span_more_hover">Read more</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 {
                     test.map(el =>(
